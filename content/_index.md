@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Sai Teja Peddinti"
+title: ""
 date: 2025-06-19
 type: landing
 
