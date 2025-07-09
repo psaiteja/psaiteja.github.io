@@ -69,25 +69,25 @@ work:
   - position: Staff Research Scientist
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: ''
+    company_logo: Google_Favicon_2025.svg
     date_start: 2022-11-01
     date_end: ''
   - position: Senior Research Scientist
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: ''
+    company_logo: Google_Favicon_2025.svg
     date_start: 2017-11-01
     date_end: 2022-10-31
   - position: Research Scientist
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: ''
+    company_logo: Google_Favicon_2025.svg
     date_start: 2014-11-01
     date_end: 2017-10-31
   - position: Research Intern
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: ''
+    company_logo: Google_Favicon_2025.svg
     date_start: 2013-06-01
     date_end: 2013-08-30
     summary: |2-
@@ -103,11 +103,11 @@ work:
     summary: |2-
       *Mentors:* [Krishna Puttaswamy](https://scholar.google.com/citations?hl=en&user=TIZWttcAAAAJ&view_op=list_works&sortby=pubdate), Hao Fang and [TV Lakshman](http://www.linkedin.com/pub/lakshman-tv/4/448/66) 
       
-      Spent the summer at Infrastructure Research group at Alcatel Lucent Bell Labs. Investigated and identified security issues arising in the new paradigm of Software Defined Networks (SDNs) such as OpenFlow. Developed and implemented a methodology to mitigate the attacks, and tested its performance on real network traces.
+      Spent the summer at Infrastructure Research group at Alcatel Lucent Bell Labs (now Nokia Bell Labs). Investigated and identified security issues arising in the new paradigm of Software Defined Networks (SDNs) such as OpenFlow. Developed and implemented a methodology to mitigate the attacks, and tested its performance on real network traces.
   - position: Intern
     company_name: Microsoft Research India, Bangalore
-    company_url: ''
-    company_logo: ''
+    company_url: 'https://www.microsoft.com/en-us/research/lab/microsoft-research-india/'
+    company_logo: Microsoft_logo.svg
     date_start: 2007-06-01
     date_end: 2007-07-30
     summary: |2-
@@ -117,19 +117,19 @@ work:
   - position: Intern
     company_name: National Innovation Foundation, India
     company_url: ''
-    company_logo: ''
+    company_logo: nif_transparent.png
     date_start: 2007-05-01
     date_end: 2007-06-01
     summary: |
-      I had developed an online video management website for National Innovation Foundation.
-  - position: Research Assistant
+      Developed an online video management website for National Innovation Foundation.
+  - position: Research & Teaching Assistant
     company_name: NYU-Polytechnic (now NYU Tandon School of Engineering)
     company_url: 'http://engineering.nyu.edu/'
-    company_logo: ''
+    company_logo: nyu.png
     date_start: 2009-09-01
     date_end: 2014-10-31
     summary: |
-      Until May 2011, I worked with [Prof.Nitesh Saxena](https://nsaxena.engr.tamu.edu/) on projects related to evaluation of Web Search and Location privacy preserving mechanisms. Published five papers as the primary author based on the work done. Worked with my PhD advisors, [Prof. Keith Ross](https://sites.google.com/nyu.edu/keithross) and [Prof. Justin Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/), in the broad area of privacy and security. Worked on privacy projects related to online anonymity, content sensitivity and location privacy. Proposed and developed a Cloud security as a service system for personal end user devices.
+      Until May 2011, I worked with [Prof.Nitesh Saxena](https://nsaxena.engr.tamu.edu/) on projects related to evaluation of Web Search and Location privacy preserving mechanisms. Published five papers as the primary author based on the work done. Worked with my PhD advisors, [Prof. Keith Ross](https://sites.google.com/nyu.edu/keithross) and [Prof. Justin Cappos](https://ssl.engineering.nyu.edu/personalpages/jcappos/), and executed projects related to online anonymity, content sensitivity and location privacy. Proposed and developed a Cloud security as a service system for personal end user devices ('Virtual Secure Network').
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
