@@ -107,7 +107,7 @@ work:
   - position: Intern
     company_name: Microsoft Research India, Bangalore
     company_url: 'https://www.microsoft.com/en-us/research/lab/microsoft-research-india/'
-    company_logo: Microsoft_logo.png
+    company_logo: microsoft
     date_start: 2007-06-01
     date_end: 2007-07-30
     summary: |2-
