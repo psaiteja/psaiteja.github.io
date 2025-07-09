@@ -122,7 +122,7 @@ work:
     date_end: 2007-06-01
     summary: |
       Developed an online video management website for National Innovation Foundation.
-  - position: Research & Teaching Assistant
+  - position: Research and Teaching Assistant
     company_name: NYU-Polytechnic (now NYU Tandon School of Engineering)
     company_url: 'http://engineering.nyu.edu/'
     company_logo: nyu.png
