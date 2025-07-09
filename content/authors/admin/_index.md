@@ -69,25 +69,25 @@ work:
   - position: Staff Research Scientist
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: Google_Favicon_2025.png
+    company_logo: google-icon
     date_start: 2022-11-01
     date_end: ''
   - position: Senior Research Scientist
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: Google_Favicon_2025.png
+    company_logo: google-icon
     date_start: 2017-11-01
     date_end: 2022-10-31
   - position: Research Scientist
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: Google_Favicon_2025.png
+    company_logo: google-icon
     date_start: 2014-11-01
     date_end: 2017-10-31
   - position: Research Intern
     company_name: Google
     company_url: 'https://research.google.com/'
-    company_logo: Google_Favicon_2025.png
+    company_logo: google-icon
     date_start: 2013-06-01
     date_end: 2013-08-30
     summary: |2-
