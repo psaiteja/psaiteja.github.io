@@ -59,7 +59,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://www.proquest.com/openview/51c4a4fbb555b127e118e90392868a24/1'
-  - area: BTech in Information Communication Technology
+  - area: BTech in Information & Communication Technology
     institution: Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), now Dhirubhai Ambani University (DAU)
     date_start: 2005-08-01
     date_end: 2009-05-31
@@ -195,4 +195,4 @@ I am currently a [Staff Research Scientist](http://research.google.com/pubs/SaiP
 
 My current research focuses on applying machine learning techniques to build novel privacy and security features, and performing large scale measurements and analysis to understand user preferences/concerns and to evaluate effectiveness of existing features. 
 
-I graduated in 2014 with a Ph.D. in Computer Science from the [Department of Computer Science and Engineering](http://engineering.nyu.edu/academics/departments/computer-science-engineering) at the [New York University, Polytechnic School of Engineering (currently Tandon School of Engineering)](http://engineering.nyu.edu/). I completed my Bachelor of Technology in ICT from [Dhirubhai Ambani Institute of Information and Communication Technology, DA-IICT](https://www.daiict.ac.in/), India in 2009.
+I graduated in 2014 with a Ph.D. in Computer Science from the [Department of Computer Science and Engineering](http://engineering.nyu.edu/academics/departments/computer-science-engineering) at the [New York University, Polytechnic School of Engineering (currently Tandon School of Engineering)](http://engineering.nyu.edu/). I completed my Bachelor of Technology in ICT from [Dhirubhai Ambani Institute of Information and Communication Technology, DA-IICT](https://www.daiict.ac.in/) (now Dhirubhai Ambani University, DAU), India in 2009.

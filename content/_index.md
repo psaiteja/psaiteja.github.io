@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: Sai Teja Peddinti
 date: 2025-06-19
 type: landing
 
@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/SaiTejaPeddintiResume-Nov1,2022.pdf
     design:
       css_class: dark
       background:
