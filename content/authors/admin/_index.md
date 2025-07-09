@@ -125,7 +125,7 @@ work:
   - position: Research and Teaching Assistant
     company_name: NYU-Polytechnic (now NYU Tandon School of Engineering)
     company_url: 'http://engineering.nyu.edu/'
-    company_logo: nyu.png
+    company_logo: nyu
     date_start: 2009-09-01
     date_end: 2014-10-31
     summary: |
@@ -158,7 +158,7 @@ awards:
     url: https://www.csaw.io/research
     date: '2022-10-01'
     awarder: NYU CSAW Applied Research Competition
-    icon: nyu.png
+    icon: nyu
     summary: |
       Our paper titled [Hark: A Deep Learning System for Navigating Privacy Feedback at Scale](https://research.google/pubs/hark-a-deep-learning-system-for-navigating-privacy-feedback-at-scale/) was selected as a finalist in the applied research competition.
   - title: IAPP SOUPS Privacy Award
@@ -178,7 +178,7 @@ awards:
   - title: Deborah Rosenthal, MD Award
     date: '2011-08-01'
     awarder: NYU-Polytechnic (now NYU Tandon School of Engineering)
-    icon: nyu.png
+    icon: nyu
     summary: |
       Awarded for outstanding performance in PhD qualifying exam.
   - title: President's Gold Medal for Academic Excellence
