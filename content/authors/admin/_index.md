@@ -117,7 +117,7 @@ work:
   - position: Intern
     company_name: National Innovation Foundation, India
     company_url: ''
-    company_logo: nif_transparent
+    company_logo: nif
     date_start: 2007-05-01
     date_end: 2007-06-01
     summary: |
