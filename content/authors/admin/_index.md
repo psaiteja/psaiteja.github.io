@@ -117,7 +117,7 @@ work:
   - position: Intern
     company_name: National Innovation Foundation, India
     company_url: ''
-    company_logo: nif_transparent.png
+    company_logo: nif_transparent
     date_start: 2007-05-01
     date_end: 2007-06-01
     summary: |
@@ -165,7 +165,7 @@ awards:
     url: https://www.usenix.org/conference/soups2017
     date: '2017-07-01'
     awarder: USENIX SOUPS Conference
-    icon: soups
+    icon: soups_2017
     summary: |
       Our paper titled [Exploring decision making with Android’s runtime permission dialogs using in-context surveys](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bonne) was awarded the IAPP SOUPS Privacy Award.
   - title: Finalist in the Kaspersky's 'CyberSecurity for the Next Generation'
@@ -184,7 +184,7 @@ awards:
   - title: President's Gold Medal for Academic Excellence
     date: '2009-12-01'
     awarder: DA-IICT
-    icon: daiict
+    icon: daiict_logo
     summary: |
       Awarded for outstanding academic performance while pursuing BTech, Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT, now Dhirubhai Ambani University DAU) class of 2009.
 ---
