@@ -35,13 +35,6 @@ tags:
 
 featured: false
 
-# Links to project content.
-links:
-- name: DOI
-  url: "https://doi.org/10.1109/MSEC.2024.3504512"
-# - name: Custom Link
-#   url: "http://example.org"
-
 url_pdf: "https://ieeexplore.ieee.org/document/10803029"
 ---
 

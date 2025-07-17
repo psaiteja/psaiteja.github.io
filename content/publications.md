@@ -8,7 +8,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Recent Publications
+      title: All Publications
       text: ""
       filters:
         folders:
