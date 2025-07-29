@@ -21,7 +21,7 @@ publishDate: "2025-07-17T00:00:00Z"
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types: ["article-journal"]
+publication_types: ["article-magazine"]
 
 # Publication name and optional short description.
 publication: "*IEEE Security & Privacy*"
