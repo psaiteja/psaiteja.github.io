@@ -42,5 +42,7 @@ tags:
 
 featured: false
 
-url_pdf: https://www.usenix.org/conference/usenixsecurity21/presentation/cao-weicheng
+url_pdf: 'https://www.usenix.org/system/files/sec21-cao-weicheng.pdf'
+url_slides: 'https://www.usenix.org/system/files/sec21_slides_cao-weicheng.pdf'
+
 ---

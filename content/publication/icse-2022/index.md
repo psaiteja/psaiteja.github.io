@@ -45,5 +45,5 @@ tags:
 
 featured: false
 
-url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3510003.3510079'
+url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3510003.3510079'
 ---

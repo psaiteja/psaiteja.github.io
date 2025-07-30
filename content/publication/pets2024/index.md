@@ -29,9 +29,9 @@ tags:
 featured: false
 
 links:
- - name: "Workshop Link"
+ - name: "URL"
    url: "https://sites.google.com/view/trustedhealthapps/accepted-papers"
-url_pdf: https://research.google/pubs/unveiling-privacy-perspectives-about-mobile-health-apps-on-a-large-scale-2/
+url_pdf: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''

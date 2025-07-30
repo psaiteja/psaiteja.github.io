@@ -35,7 +35,10 @@ tags:
 
 featured: false
 
-url_pdf: https://link.springer.com/chapter/10.1007/978-3-030-75018-3_9
+links:
+- name: URL
+  url: https://link.springer.com/chapter/10.1007/978-3-030-75018-3_9
+url_pdf: 'https://arxiv.org/pdf/2305.06509'
 ---
 
 A preprint of this paper is available on [arXiv](https://arxiv.org/abs/2305.06509)

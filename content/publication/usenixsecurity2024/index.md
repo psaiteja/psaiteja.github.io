@@ -21,8 +21,8 @@ publishDate: "2025-07-30T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Proceedings of the 33rd USENIX Security Symposium (SEC '24)"
-publication_short: "SEC '24"
+publication: "Proceedings of the 33rd USENIX Security Symposium"
+publication_short: "USENIX Security"
 
 abstract: "We present an analysis of 12 million instances of privacy-relevant reviews publicly visible on the Google Play Store that span a 10 year period. By leveraging state-of-the-art NLP techniques, we examine what users have been writing about privacy along multiple dimensions: time, countries, app types, diverse privacy topics, and even across a spectrum of emotions. We find consistent growth of privacy-relevant reviews, and explore topics that are trending (such as Data Deletion and Data Theft), as well as those on the decline (such as privacy-relevant reviews on sensitive permissions)..."
 

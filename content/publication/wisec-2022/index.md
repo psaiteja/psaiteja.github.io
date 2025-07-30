@@ -38,5 +38,5 @@ tags:
 
 featured: false
 
-url_pdf: 'https://dl.acm.org/doi/10.1145/3507657.3528543'
+url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3507657.3528543'
 ---
