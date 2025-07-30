@@ -2,16 +2,22 @@
 title: 'Hark: A Deep Learning System for Navigating Privacy Feedback at Scale'
 authors:
 - Hamza Harkous
-- Sai Teja Peddinti
+- admin
 - Rishabh Khandelwal
 - Animesh Srivastava
 - Nina Taft
-date: '2022-01-01'
+
+date: '2022-05-23'
+doi: 10.1109/SP46214.2022.9833729
+
 publishDate: '2025-07-30T17:44:43.985230Z'
+
 publication_types:
 - paper-conference
-publication: '*2022 IEEE Symposium on Security and Privacy (SP)*'
-doi: 10.1109/SP46214.2022.9833729
+
+publication: 'IEEE Symposium on Security and Privacy'
+publication_short: 'IEEE S&P'
+
 abstract: Integrating user feedback is one of the pillars for building successful
   products. However, this feedback is generally collected in an unstructured free-text
   form, which is challenging to understand at scale. This is particularly demanding
@@ -28,7 +34,13 @@ abstract: Integrating user feedback is one of the pillars for building successfu
   annotation studies, we show that Hark's generated issues are of high accuracy and
   coverage and that the theme titles are of high quality. We illustrate Hark's capabilities
   by presenting high-level insights from 1.3M Android apps.
+
 tags:
-- Deep learning;Privacy;Casting;Navigation;Training 
-  data;Manuals;Internet;privacy;deep-learning;natural-language-processing;Android;Play-Store;NLP
+- Large Language Models (LLMs)
+- Privacy
+- Mobile Apps
+
+featured: false
+
+url_pdf: https://ieeexplore.ieee.org/document/9833729
 ---
