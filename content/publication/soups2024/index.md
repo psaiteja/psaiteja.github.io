@@ -36,6 +36,4 @@ url_pdf: "https://www.usenix.org/system/files/soups2024-prybylo.pdf"
 isbn: "978-1-939133-42-7"
 location: "Philadelphia, PA, USA"
 publisher: "USENIX Association"
-
-
 ---
