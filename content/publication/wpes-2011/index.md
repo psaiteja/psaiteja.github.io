@@ -1,16 +1,21 @@
 ---
 title: 'Cover locations: availing location-based services without revealing the location'
 authors:
-- Sai Teja Peddinti
+- admin
 - Avis Dsouza
 - Nitesh Saxena
-date: '2011-01-01'
+
+date: '2011-10-17'
+doi: 10.1145/2046556.2046576
+
 publishDate: '2025-07-30T18:33:35.047732Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 10th Annual ACM Workshop on Privacy in the Electronic
-  Society*'
-doi: 10.1145/2046556.2046576
+
+publication: 'Proceedings of the 10th Annual ACM CCS Workshop on Privacy in the Electronic
+  Society'
+publication_short: 'WPES'
+
 abstract: Location-Based Services (LBSs) have been gaining popularity due to a wide
   range of interesting and important applications being developed. However, the users
   availing such services are concerned about their location privacy, in that they
@@ -32,11 +37,15 @@ abstract: Location-Based Services (LBSs) have been gaining popularity due to a w
   our results show that the proposed solution, which requires minor computations without
   the need for any out-of-band information such as traffic densities in a region or
   the road network information, is superior to other client-based solutions.
+
 tags:
-- k-anonymity
-- location privacy
-- location-based services
+- Privacy
+- Location Based Services
+- Query Obfuscation
+
 links:
 - name: URL
   url: https://doi.org/10.1145/2046556.2046576
+
+url_pdf: 'https://nsaxena.engr.tamu.edu/wp-content/uploads/sites/238/2019/12/ps-wpes11.pdf'
 ---

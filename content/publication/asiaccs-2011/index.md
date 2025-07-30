@@ -1,15 +1,20 @@
 ---
 title: On the effectiveness of anonymizing networks for web search privacy
 authors:
-- Sai Teja Peddinti
+- admin
 - Nitesh Saxena
-date: '2011-01-01'
+
+date: '2011-03-22'
+doi: 10.1145/1966913.1966984
+
 publishDate: '2025-07-30T18:33:35.062904Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 6th ACM Symposium on Information, Computer and Communications
-  Security*'
-doi: 10.1145/1966913.1966984
+
+publication: 'Proceedings of the 6th ACM Symposium on Information, Computer and Communications
+  Security'
+publication_short: 'ASIACCS'
+
 abstract: Web search has emerged as one of the most important applications on the
   internet, with several search engines available to the users. There is a common
   practice among these search engines to log and analyse the user queries, which leads
@@ -33,11 +38,14 @@ abstract: Web search has emerged as one of the most important applications on th
   with accuracies as high as 80--98%, even when their queries are mixed among queries
   of 999 other users. Our results cast serious doubts on the effectiveness of anonymizing
   web search queries by means of anonymizing networks.
+
 tags:
-- anonymizing networks
-- query obfuscation
-- web search privacy
+- Anonymizing networks
+- Web search privacy
+
 links:
 - name: URL
   url: https://doi.org/10.1145/1966913.1966984
+
+url_pdf: 'https://nsaxena.engr.tamu.edu/wp-content/uploads/sites/238/2019/12/ps-asiaccs11.pdf'
 ---

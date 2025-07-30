@@ -3,15 +3,21 @@ title: 'Stalking Beijing from Timbuktu: A Generic Measurement Approach for Explo
   Location-Based Social Discovery'
 authors:
 - Yuan Ding
-- Sai Teja Peddinti
+- admin
 - Keith W. Ross
-date: '2014-01-01'
+
+date: '2014-11-07'
+doi: 10.1145/2666620.2666625
+
 publishDate: '2025-07-30T18:33:35.018225Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 4th ACM Workshop on Security and Privacy in Smartphones
-  & Mobile Devices*'
-doi: 10.1145/2666620.2666625
+
+publication: 'Proceedings of the 4th ACM CCS Workshop on Security and Privacy in Smartphones
+  & Mobile Devices'
+publication_short: 'SPSM'
+
 abstract: The rise of smart phone usage has led to an increase in the number of applications
   that make use of the users' locations. One popular class of such applications is
   location-based social discovery (LBSD), which enables users to discover others nearby
@@ -25,15 +31,13 @@ abstract: The rise of smart phone usage has led to an increase in the number of 
   design a scheme that can determine a discovered user's location to a narrow region.
   By monitoring mid-town Manhattan for seven days, we gather location information
   pertaining to 1745 distinct users moving in the targeted geographical region.
+
 tags:
-- discover
-- framework
-- generic
-- location
-- privacy
-- social networks
-- stalk
-- wechat
+- Privacy
+- Location Based Services
+
+featured: false
+
 links:
 - name: URL
   url: https://doi.org/10.1145/2666620.2666625

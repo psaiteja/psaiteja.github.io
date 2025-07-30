@@ -2,16 +2,22 @@
 title: 'Cloak and Swagger: Understanding Data Sensitivity through the Lens of User
   Anonymity'
 authors:
-- Sai Teja Peddinti
+- admin
 - Aleksandra Korolova
 - Elie Bursztein
 - Geetanjali Sampemane
-date: '2014-01-01'
+
+date: '2014-05-18'
+doi: 10.1109/SP.2014.38
+
 publishDate: '2025-07-30T18:33:35.033335Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 2014 IEEE Symposium on Security and Privacy*'
-doi: 10.1109/SP.2014.38
+
+publication: 'Proceedings of the 2014 IEEE Symposium on Security and Privacy'
+publication_short: 'IEEE S&P'
+
 abstract: Most of what we understand about data sensitivity is through user self-report
   (e.g., surveys), this paper is the first to use behavioral data to determine content
   sensitivity, via the clues that users give as to what information they consider
@@ -25,7 +31,12 @@ abstract: Most of what we understand about data sensitivity is through user self
   that should be viewed on a continuum rather than as a binary concept, and advance
   the idea that machine learning over behavioral data can be effectively used in order
   to develop product features that can help keep users safe.
-links:
-- name: URL
-  url: https://doi.org/10.1109/SP.2014.38
+
+tags:
+- Privacy
+- Data Mining
+
+featured: false
+
+url_pdf: 'https://www.ieee-security.org/TC/SP2014/papers/CloakandSwagger_c_UnderstandingDataSensitivityThroughtheLensofUserAnonymity.pdf'
 ---

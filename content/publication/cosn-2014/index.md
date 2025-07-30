@@ -2,15 +2,21 @@
 title: "\\\"On the internet, nobody knows you're a dog\\\": a twitter case study of
   anonymity in social networks"
 authors:
-- Sai Teja Peddinti
+- admin
 - Keith W. Ross
 - Justin Cappos
-date: '2014-01-01'
+
+date: '2014-10-01'
+doi: 10.1145/2660460.2660467
+
 publishDate: '2025-07-30T18:33:35.025736Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the Second ACM Conference on Online Social Networks*'
-doi: 10.1145/2660460.2660467
+
+publication: 'Proceedings of the Second ACM Conference on Online Social Networks'
+publication_short: 'COSN'
+
+
 abstract: Twitter does not impose a Real-Name policy for usernames, giving users the
   freedom to choose how they want to be identified. This results in some users being
   Identifiable (disclosing their full name) and some being Anonymous (disclosing neither
@@ -28,13 +34,17 @@ abstract: Twitter does not impose a Real-Name policy for usernames, giving users
   their activity to the general public. To our knowledge, this is the first paper
   to conduct a large-scale data-driven analysis of user anonymity in online social
   networks.
+
 tags:
-- anonymity
-- behavioral analysis
-- online social networks
-- quantify
-- twitter
+- Privacy
+- Anonymity
+- Data Mining
+
+featured: false
+
 links:
 - name: URL
   url: https://doi.org/10.1145/2660460.2660467
+
+url_pdf: 'https://cosn.acm.org/2014/files/cosn025f-peddintiA.pdf'
 ---

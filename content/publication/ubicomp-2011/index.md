@@ -1,14 +1,19 @@
 ---
 title: On the limitations of query obfuscation techniques for location privacy
 authors:
-- Sai Teja Peddinti
+- admin
 - Nitesh Saxena
-date: '2011-01-01'
+
+date: '2011-09-17'
+doi: 10.1145/2030112.2030139
+
 publishDate: '2025-07-30T18:33:35.055519Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 13th International Conference on Ubiquitous Computing*'
-doi: 10.1145/2030112.2030139
+
+publication: 'Proceedings of the 13th International Conference on Ubiquitous Computing'
+publication_short: 'Ubicomp'
+
 abstract: A promising approach to location privacy is query obfuscation, which involves
   reporting k -- 1 false locations along with the real location. In this paper, we
   examine the level of privacy protection provided by the current query obfuscation
@@ -22,12 +27,15 @@ abstract: A promising approach to location privacy is query obfuscation, which i
   from 20% to about 40%. Our work demonstrates that the use of aggregate statistical
   information alone is not sufficient to generate simulated trips. We identify areas
   for improvement in the existing query obfuscation techniques.
+
 tags:
-- anonymity
-- location privacy
-- machine learning
-- query obfuscation
+- Privacy
+- Location Based Services
+- Query Obfuscation
+
 links:
 - name: URL
   url: https://doi.org/10.1145/2030112.2030139
+
+url_pdf: 'https://nsaxena.engr.tamu.edu/wp-content/uploads/sites/238/2019/12/ps-ubicomp11.pdf'
 ---

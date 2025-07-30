@@ -1,14 +1,20 @@
 ---
 title: 'On the privacy of web search based on query obfuscation: a case study of TrackMeNot'
 authors:
-- Sai Teja Peddinti
+- admin
 - Nitesh Saxena
-date: '2010-01-01'
+
+date: '2010-07-21'
+
 publishDate: '2025-07-30T18:33:35.070972Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 10th International Conference on Privacy Enhancing
-  Technologies*'
+
+publication: 'Proceedings of the 10th International Conference on Privacy Enhancing
+  Technologies'
+publication_short: 'PETS'
+
 abstract: Web Search is one of the most rapidly growing applications on the internet
   today. However, the current practice followed by most search engines - of logging
   and analyzing users' queries - raises serious privacy concerns. One viable solution
@@ -23,8 +29,15 @@ abstract: Web Search is one of the most rapidly growing applications on the inte
   that a search engine, equipped with only a short-term history of a user's search
   queries, can break the privacy guarantees of TMN by only utilizing off-the-shelf
   machine learning classifiers.
+
 tags:
-- web search privacy
-- query obfuscation
-- noisy queries
+- Web Search Privacy
+- Query Obfuscation
+
+
+links:
+- name: URL
+  url: http://dl.acm.org/citation.cfm?id=1881153
+
+url_pdf: 'https://freehaven.net/anonbib/papers/pets2010/p2-peddinti.pdf'
 ---

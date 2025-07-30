@@ -1,13 +1,18 @@
 ---
 title: 'Web search query privacy: Evaluating query obfuscation and anonymizing networks'
 authors:
-- Sai Teja Peddinti
+- admin
 - Nitesh Saxena
+
 date: '2014-01-01'
+
 publishDate: '2025-07-30T18:33:35.040581Z'
 publication_types:
 - article-journal
-publication: '*J. Comput. Secur.*'
+
+publication: 'Journal of Computer Security'
+publication_short: 'JCS'
+
 abstract: Web Search is one of the most rapidly growing applications on the internet
   today. However, the current practice followed by most search engines --of logging
   and analyzing users' queries --raises serious privacy concerns. In this paper, we
@@ -24,8 +29,15 @@ abstract: Web Search is one of the most rapidly growing applications on the inte
   that a search engine, equipped with only a short-term history of a user's search
   queries, can break the privacy guarantees of TMN and Tor by only utilizing off-the-shelf
   machine learning techniques.
+
 tags:
 - Search Privacy
 - Query Obfuscation
 - Anonymizing Networks
+
+links:
+- name: URL
+  url: https://dl.acm.org/doi/abs/10.5555/2590636.2590640
+
+url_pdf: 'https://nsaxena.engr.tamu.edu/wp-content/uploads/sites/238/2019/12/ps-jcs14.pdf'
 ---
