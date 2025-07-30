@@ -1,0 +1,34 @@
+---
+title: A Large Scale Study of User Behavior, Expectations and Engagement with Android
+  Permissions
+authors:
+- Weicheng Cao
+- Chunqiu Xia
+- Sai Teja Peddinti
+- David Lie
+- Nina Taft
+- Lisa M. Austin
+date: '2021-08-01'
+publishDate: '2025-07-30T18:33:34.962739Z'
+publication_types:
+- paper-conference
+publication: '*30th USENIX Security Symposium (USENIX Security 21)*'
+abstract: We conduct a global study on the behaviors, expectations and engagement
+  of 1,719 participants across 10 countries and regions towards Android application
+  permissions. Participants were recruited using mobile advertising and used an application
+  we designed for 30 days. Our app samples user behaviors (decisions made), rationales
+  (via in-situ surveys), expectations, and attitudes, as well as some app provided
+  explanations. We study the grant and deny decisions our users make, and build mixed
+  effect logistic regression models to illustrate the many factors that influence
+  this decision making. Among several interesting findings, we observed that users
+  facing an unexpected permission request are more than twice as likely to deny it
+  compared to a user who expects it, and that permission requests accompanied by an
+  explanation have a deny rate that is roughly half the deny rate of app permission
+  requests without explanations. These findings remain true even when controlling
+  for other factors. To the best of our knowledge, this may be the first study of
+  actual privacy behavior (not stated behavior) for Android apps, with users using
+  their own devices, across multiple continents.
+links:
+- name: URL
+  url: https://www.usenix.org/conference/usenixsecurity21/presentation/cao-weicheng
+---
