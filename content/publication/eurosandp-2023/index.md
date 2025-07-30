@@ -48,4 +48,4 @@ links:
 url_pdf: https://ieeexplore.ieee.org/document/10190504
 ---
 
-A preprint version of this paper is available on [arXiV](https://arxiv.org/abs/2305.15314).
+A preprint version of this paper is available on [arXiv](https://arxiv.org/abs/2305.15314).

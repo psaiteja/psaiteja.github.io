@@ -4,15 +4,21 @@ title: A Large Scale Study of User Behavior, Expectations and Engagement with An
 authors:
 - Weicheng Cao
 - Chunqiu Xia
-- Sai Teja Peddinti
+- admin
 - David Lie
 - Nina Taft
 - Lisa M. Austin
+
 date: '2021-08-01'
+
 publishDate: '2025-07-30T18:33:34.962739Z'
+
 publication_types:
 - paper-conference
-publication: '*30th USENIX Security Symposium (USENIX Security 21)*'
+
+publication: '30th USENIX Security Symposium'
+publication_short: 'USENIX Security'
+
 abstract: We conduct a global study on the behaviors, expectations and engagement
   of 1,719 participants across 10 countries and regions towards Android application
   permissions. Participants were recruited using mobile advertising and used an application
@@ -28,7 +34,13 @@ abstract: We conduct a global study on the behaviors, expectations and engagemen
   for other factors. To the best of our knowledge, this may be the first study of
   actual privacy behavior (not stated behavior) for Android apps, with users using
   their own devices, across multiple continents.
-links:
-- name: URL
-  url: https://www.usenix.org/conference/usenixsecurity21/presentation/cao-weicheng
+
+tags:
+- Privacy
+- Mobile Apps
+- Usability Research
+
+featured: false
+
+url_pdf: https://www.usenix.org/conference/usenixsecurity21/presentation/cao-weicheng
 ---

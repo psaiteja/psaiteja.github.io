@@ -4,15 +4,21 @@ authors:
 - Vijayanta Jain
 - Sanonda Datta Gupta
 - Sepideh Ghanavati
-- Sai Teja Peddinti
+- admin
 - Collin McMillan
-date: '2022-01-01'
+
+date: '2022-05-16'
+doi: 10.1145/3507657.3528543
+
 publishDate: '2025-07-30T18:33:34.943953Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 15th ACM Conference on Security and Privacy in Wireless
-  and Mobile Networks*'
-doi: 10.1145/3507657.3528543
+
+publication: 'Proceedings of the 15th ACM Conference on Security and Privacy in Wireless
+  and Mobile Networks'
+publication_short: 'ACM WiSec'
+
 abstract: Interpreting and describing mobile applications' privacy behaviors to ensure
   creating consistent and accurate privacy notices is a challenging task for developers.
   Traditional approaches to creating privacy notices are based on predefined templates
@@ -25,12 +31,12 @@ abstract: Interpreting and describing mobile applications' privacy behaviors to 
   We develop and train deep learning models to classify code segments. We achieve
   the highest F-1 scores across all label types of 79.62% and 79.02% for Practice
   and Purpose.
+
 tags:
-- privacy-behavior
-- privacy notices
-- inconsistency analysis
-- android applications
-links:
-- name: URL
-  url: https://doi.org/10.1145/3507657.3528543
+- Mobile Apps
+- Privacy
+
+featured: false
+
+url_pdf: 'https://dl.acm.org/doi/10.1145/3507657.3528543'
 ---

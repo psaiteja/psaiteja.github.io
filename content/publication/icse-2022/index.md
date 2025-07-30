@@ -4,13 +4,19 @@ authors:
 - Preksha Nema
 - Pauline Anthonysamy
 - Nina Taft
-- Sai Teja Peddinti
-date: '2022-01-01'
+- admin
+
+date: '2022-05-08'
+doi: 10.1145/3510003.3510079
+
 publishDate: '2025-07-30T18:33:34.954672Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 44th International Conference on Software Engineering*'
-doi: 10.1145/3510003.3510079
+
+publication: 'Proceedings of the 44th International Conference on Software Engineering'
+publication_short: 'ICSE'
+
 abstract: In this paper we present a methodology to analyze users' concerns and perspectives
   about privacy at scale. We leverage NLP techniques to process millions of mobile
   app reviews and extract privacy concerns. Our methodology is composed of a binary
@@ -31,12 +37,13 @@ abstract: In this paper we present a methodology to analyze users' concerns and 
   privacy reasons, as well as positive reviews that reward developers for privacy
   friendly apps. Finally we discuss the implications of our method and findings for
   developers and app stores.
+
 tags:
-- empirical
-- mobile apps
-- nlp
-- privacy
-links:
-- name: URL
-  url: https://doi.org/10.1145/3510003.3510079
+- Mobile Apps
+- Privacy
+- Natural Language Processing
+
+featured: false
+
+url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3510003.3510079'
 ---
