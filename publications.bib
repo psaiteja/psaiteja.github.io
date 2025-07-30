@@ -23,3 +23,302 @@
   doi={10.1109/SP46214.2022.9833729},
   abstract={Integrating user feedback is one of the pillars for building successful products. However, this feedback is generally collected in an unstructured free-text form, which is challenging to understand at scale. This is particularly demanding in the privacy domain due to the nuances associated with the concept and the limited existing solutions. In this work, we present Hark, a system for discovering and summarizing privacy-related feedback at scale. Hark automates the entire process of summarizing privacy feedback, starting from unstructured text and resulting in a hierarchy of high-level privacy themes and fine-grained issues within each theme, along with representative reviews for each issue. At the core of Hark is a set of new deep learning models trained on different tasks, such as privacy feedback classification, privacy issues generation, and high-level theme creation. We illustrate Hark's efficacy on a corpus of 626 M Google Play reviews. Out of this corpus, our privacy feedback classifier extracts 6M privacy-related reviews (with an AUC-ROC of 0.92). With three annotation studies, we show that Hark's generated issues are of high accuracy and coverage and that the theme titles are of high quality. We illustrate Hark's capabilities by presenting high-level insights from 1.3M Android apps.}
 }
+
+@inproceedings{wisec2022,
+author = {Jain, Vijayanta and Gupta, Sanonda Datta and Ghanavati, Sepideh and Peddinti, Sai Teja and McMillan, Collin},
+title = {PAcT: Detecting and Classifying Privacy Behavior of Android Applications},
+year = {2022},
+isbn = {9781450392167},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3507657.3528543},
+doi = {10.1145/3507657.3528543},
+abstract = {Interpreting and describing mobile applications' privacy behaviors to ensure creating consistent and accurate privacy notices is a challenging task for developers. Traditional approaches to creating privacy notices are based on predefined templates or questionnaires and do not rely on any traceable behaviors in code which may result in inconsistent and inaccurate notices. In this paper, we present an automated approach to detect privacy behaviors in code of Android applications. We develop Privacy Action Taxonomy (PAcT), which includes labels for Practice (i.e. how applications use personal information) and Purpose (i.e. why). We annotate ~5,200 code segments based on the labels and create a multi-label multi-class dataset with ~14,000 labels. We develop and train deep learning models to classify code segments. We achieve the highest F-1 scores across all label types of 79.62\% and 79.02\% for Practice and Purpose.},
+booktitle = {Proceedings of the 15th ACM Conference on Security and Privacy in Wireless and Mobile Networks},
+pages = {104-118},
+numpages = {15},
+keywords = {privacy-behavior, privacy notices, inconsistency analysis, android applications},
+location = {San Antonio, TX, USA},
+series = {WiSec '22}
+}
+
+@inproceedings{icse2022,
+author = {Nema, Preksha and Anthonysamy, Pauline and Taft, Nina and Peddinti, Sai Teja},
+title = {Analyzing user perspectives on mobile app privacy at scale},
+year = {2022},
+isbn = {9781450392211},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3510003.3510079},
+doi = {10.1145/3510003.3510079},
+abstract = {In this paper we present a methodology to analyze users' concerns and perspectives about privacy at scale. We leverage NLP techniques to process millions of mobile app reviews and extract privacy concerns. Our methodology is composed of a binary classifier that distinguishes between privacy and non-privacy related reviews. We use clustering to gather reviews that discuss similar privacy concerns, and employ summarization metrics to extract representative reviews to summarize each cluster. We apply our methods on 287M reviews for about 2M apps across the 29 categories in Google Play to identify top privacy pain points in mobile apps. We identified approximately 440K privacy related reviews. We find that privacy related reviews occur in all 29 categories, with some issues arising across numerous app categories and other issues only surfacing in a small set of app categories. We show empirical evidence that confirms dominant privacy themes - concerns about apps requesting unnecessary permissions, collection of personal information, frustration with privacy controls, tracking and the selling of personal data. As far as we know, this is the first large scale analysis to confirm these findings based on hundreds of thousands of user inputs. We also observe some unexpected findings such as users warning each other not to install an app due to privacy issues, users uninstalling apps due to privacy reasons, as well as positive reviews that reward developers for privacy friendly apps. Finally we discuss the implications of our method and findings for developers and app stores.},
+booktitle = {Proceedings of the 44th International Conference on Software Engineering},
+pages = {112-124},
+numpages = {13},
+keywords = {empirical, mobile apps, nlp, privacy},
+location = {Pittsburgh, Pennsylvania},
+series = {ICSE '22}
+}
+
+@inproceedings {usenix2021,
+author = {Weicheng Cao and Chunqiu Xia and Sai Teja Peddinti and David Lie and Nina Taft and Lisa M. Austin},
+title = {A Large Scale Study of User Behavior, Expectations and Engagement with Android Permissions},
+booktitle = {30th USENIX Security Symposium (USENIX Security 21)},
+year = {2021},
+isbn = {978-1-939133-24-3},
+pages = {803--820},
+url = {https://www.usenix.org/conference/usenixsecurity21/presentation/cao-weicheng},
+publisher = {USENIX Association},
+month = aug,
+abstract = {We conduct a global study on the behaviors, expectations and engagement of 1,719 participants across 10 countries and regions towards Android application permissions. Participants were recruited using mobile advertising and used an application we designed for 30 days. Our app samples user behaviors (decisions made), rationales (via in-situ surveys), expectations, and attitudes, as well as some app provided explanations. We study the grant and deny decisions our users make, and build mixed effect logistic regression models to illustrate the many factors that influence this decision making. Among several interesting findings, we observed that users facing an unexpected permission request are more than twice as likely to deny it compared to a user who expects it, and that permission requests accompanied by an explanation have a deny rate that is roughly half the deny rate of app permission requests without explanations. These findings remain true even when controlling for other factors. To the best of our knowledge, this may be the first study of actual privacy behavior (not stated behavior) for Android apps, with users using their own devices, across multiple continents.}
+}
+
+@InProceedings{rcis2021,
+author="Jain, Vijayanta
+and Gupta, Sanonda Datta
+and Ghanavati, Sepideh
+and Peddinti, Sai Teja",
+editor="Cherfi, Samira
+and Perini, Anna
+and Nurcan, Selmin",
+title="PriGen: Towards Automated Translation of Android Applications' Code to Privacy Captions",
+booktitle="Research Challenges in Information Science",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="142--151",
+abstract="Mobile applications are required to give privacy notices to the users when they collect or share personal information. Creating consistent and concise privacy notices can be a challenging task for developers. Previous work has attempted to help developers create privacy notices through a questionnaire or predefined templates. In this paper, we propose a novel approach and a framework, called PriGen, that extends these prior work. PriGen uses static analysis to identify Android applications' code segments which process personal information (i.e. permission-requiring code segments) and then leverages a Neural Machine Translation model to translate them into privacy captions. We present the initial analysis of our translation task for {\$}{\$}{\backslash}sim {\$}{\$}300,000 code segments.",
+isbn="978-3-030-75018-3"
+}
+
+@inproceedings{imc2019,
+author = {Peddinti, Sai Teja and Bilogrevic, Igor and Taft, Nina and Pelikan, Martin and Erlingsson, \'{U}lfar and Anthonysamy, Pauline and Hogben, Giles},
+title = {Reducing Permission Requests in Mobile Apps},
+year = {2019},
+isbn = {9781450369480},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3355369.3355584},
+doi = {10.1145/3355369.3355584},
+abstract = {Users of mobile apps sometimes express discomfort or concerns with what they see as unnecessary or intrusive permission requests by certain apps. However encouraging mobile app developers to request fewer permissions is challenging because there are many reasons why permissions are requested; furthermore, prior work [25] has shown it is hard to disambiguate the purpose of a particular permission with high certainty.In this work we describe a novel, algorithmic mechanism intended to discourage mobile-app developers from asking for unnecessary permissions. Developers are incentivized by an automated alert, or "nudge", shown in the Google Play Console when their apps ask for permissions that are requested by very few functionally-similar apps---in other words, by their competition. Empirically, this incentive is effective, with significant developer response since its deployment. Permissions have been redacted by 59\% of apps that were warned, and this attenuation has occurred broadly across both app categories and app popularity levels. Importantly, billions of users' app installs from the Google Play have benefited from these redactions.},
+booktitle = {Proceedings of the Internet Measurement Conference},
+pages = {259-266},
+numpages = {8},
+keywords = {Mobile Apps, Permissions},
+location = {Amsterdam, Netherlands},
+series = {IMC '19}
+}
+
+@inproceedings{soups2017,
+author = {Bonn\'{e}, Bram and Peddinti, Sai Teja and Bilogrevic, Igor and Taft, Nina},
+title = {Exploring decision making with android's runtime permission dialogs using in-context surveys},
+year = {2017},
+isbn = {9781931971393},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {A great deal of research on the management of user data on smartphones via permission systems has revealed significant levels of user discomfort, lack of understanding, and lack of attention. The majority of these studies were conducted on Android devices before runtime permission dialogs were widely deployed. In this paper we explore how users make decisions with runtime dialogs on smartphones with Android 6.0 or higher. We employ an experience sampling methodology in order to ask users the reasons inuencing their decisions immediately after they decide. We conducted a longitudinal survey with 157 participants over a 6 week period.We explore the grant and denial rates of permissions, overall and on a per permission type basis. Overall, our participants accepted 84\% of the permission requests. We observe differences in the denial rates across permissions types; these vary from 23\% (for microphone) to 10\% (calendar). We find that one of the main reasons for granting or denying a permission request depends on users' expectation on whether or not an app should need a permission. A common reason for denying permissions is because users know they can change them later. Among the permissions granted, our participants said they were comfortable with 90\% of those decisions - indicating that for 10\% of grant decisions users may be consenting reluctantly. Interestingly, we found that women deny permissions twice as often as men.},
+booktitle = {Proceedings of the Thirteenth USENIX Conference on Usable Privacy and Security},
+pages = {195-210},
+numpages = {16},
+location = {Santa Clara, CA, USA},
+series = {SOUPS '17}
+}
+
+@ARTICLE{ieeesandp2017,
+  author={Peddinti, Sai Teja and Ross, Keith W. and Cappos, Justin},
+  journal={IEEE Security & Privacy}, 
+  title={User Anonymity on Twitter}, 
+  year={2017},
+  volume={15},
+  number={3},
+  pages={84-87},
+  keywords={Twitter;Privacy;Computer security;Uniform resource locators;Labeling;Social network services;Sensitivity;privacy;Twitter;social networks;social media;anonymity;anonymous;pseudonymous;real-name policy;content sensitivity},
+  doi={10.1109/MSP.2017.74},
+  abstract={A novel machine-based classifier system leverages Twitter user anonymity patterns and their correlation to content sensitivity to automatically identify accounts that tweet sensitive content. Anonymity's role in society and the nuances and complexity of content sensitivity are confirmed.}
+}
+
+@article{icwsm2021, 
+title={Finding Sensitive Accounts on Twitter: An Automated Approach Based on Follower Anonymity}, 
+volume={10}, 
+url={https://ojs.aaai.org/index.php/ICWSM/article/view/14782}, 
+DOI={10.1609/icwsm.v10i1.14782}, 
+abstract={We explore the feasibility of automatically finding accounts that publish sensitive content on Twitter, by examining the percentage of anonymous and identifiable followers the accounts have. We first designed a machine learning classifier to automatically determine if a Twitter account is anonymous or identifiable. We then classified an account as potentially sensitive based on the percentages of anonymous and identifiable followers the account has. We applied our approach to approximately 100,000 accounts with 404 million active followers. The approach uncovered accounts that were sensitive for a diverse number of reasons.}, 
+number={1}, 
+journal={Proceedings of the International AAAI Conference on Web and Social Media}, 
+author={Peddinti, Sai and Ross, Keith and Cappos, Justin}, 
+year={2021}, 
+month={Aug.}, 
+pages={655-658} 
+}
+
+@misc{pps2015,
+title = {Perceived Frequency of Advertising Practices},
+author = {Sai Teja Peddinti and Allen Collins and Aaron Sedley and Nina Taft and Anna Turner and Allison Woodruff},
+year = {2015},
+URL	= {https://cups.cs.cmu.edu/soups/2015/papers/ppsPeddiniti.pdf},
+booktitle	= {Symposium on Usable Privacy and Security (SOUPS), Privacy Personas and Segmentation Workshop (PPS)}
+}
+
+@ARTICLE{ieeesandp2015,
+author={Peddinti, Sai Teja and Korolova, Aleksandra and Bursztein, Elie and Sampemane, Geetanjali},
+journal={ IEEE Security \& Privacy },
+title={{ Understanding Sensitivity by Analyzing Anonymity [Guest editor's introduction] }},
+year={2015},
+volume={13},
+number={02},
+ISSN={1558-4046},
+pages={14-21},
+abstract={ We can infer user privacy preferences and expectations by observing how people use existing product features. An analysis of how users employ anonymity features on Quora, a question-and-answer site, shows that the range of topics they consider sensitive is much broader than what service providers or regulators typically deem sensitive. A data-driven approach can help online services improve their products by developing features that let users express and exercise privacy preferences more effectively. },
+keywords={Privacy;Context modeling;Sensitivity;Social network services;Search engines;Product design;Sociology;Web sites;Information analysis},
+doi={10.1109/MSP.2015.45},
+url = {https://doi.ieeecomputersociety.org/10.1109/MSP.2015.45},
+publisher={IEEE Computer Society},
+address={Los Alamitos, CA, USA},
+month=mar}
+
+@inproceedings{spsm2014,
+author = {Ding, Yuan and Peddinti, Sai Teja and Ross, Keith W.},
+title = {Stalking Beijing from Timbuktu: A Generic Measurement Approach for Exploiting Location-Based Social Discovery},
+year = {2014},
+isbn = {9781450331555},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2666620.2666625},
+doi = {10.1145/2666620.2666625},
+abstract = {The rise of smart phone usage has led to an increase in the number of applications that make use of the users' locations. One popular class of such applications is location-based social discovery (LBSD), which enables users to discover others nearby and then communicate. In this paper, we show how LBSD applications can be exploited by even weak adversaries to stalk LBSD users in any city from any location in the world. We develop an automated measurement methodology--combining faking longitude and latitude locations, smart phone emulation, task automation, and optical character recognition (OCR)--that can be adapted to any LBSD service without relying on an application programming interface (API) or on reverse engineering. Although our approach is generic, we focus our study on WeChat, a popular social network. We design a scheme that can determine a discovered user's location to a narrow region. By monitoring mid-town Manhattan for seven days, we gather location information pertaining to 1745 distinct users moving in the targeted geographical region.},
+booktitle = {Proceedings of the 4th ACM Workshop on Security and Privacy in Smartphones \& Mobile Devices},
+pages = {75-80},
+numpages = {6},
+keywords = {discover, framework, generic, location, privacy, social networks, stalk, wechat},
+location = {Scottsdale, Arizona, USA},
+series = {SPSM '14}
+}
+
+@inproceedings{cosn2014,
+author = {Peddinti, Sai Teja and Ross, Keith W. and Cappos, Justin},
+title = {"On the internet, nobody knows you're a dog": a twitter case study of anonymity in social networks},
+year = {2014},
+isbn = {9781450331982},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2660460.2660467},
+doi = {10.1145/2660460.2660467},
+abstract = {Twitter does not impose a Real-Name policy for usernames, giving users the freedom to choose how they want to be identified. This results in some users being Identifiable (disclosing their full name) and some being Anonymous (disclosing neither their first nor last name).In this work we perform a large-scale analysis of Twitter to study the prevalence and behavior of Anonymous and Identifiable users. We employ Amazon Mechanical Turk (AMT) to classify Twitter users as Highly Identifiable, Identifiable, Partially Anonymous, and Anonymous. We find that a significant fraction of accounts are Anonymous or Partially Anonymous, demonstrating the importance of Anonymity in Twitter. We then select several broad topic categories that are widely considered sensitive--including pornography, escort services, sexual orientation, religious and racial hatred, online drugs, and guns--and find that there is a correlation between content sensitivity and a user's choice to be anonymous. Finally, we find that Anonymous users are generally less inhibited to be active participants, as they tweet more, lurk less, follow more accounts, and are more willing to expose their activity to the general public. To our knowledge, this is the first paper to conduct a large-scale data-driven analysis of user anonymity in online social networks.},
+booktitle = {Proceedings of the Second ACM Conference on Online Social Networks},
+pages = {83-94},
+numpages = {12},
+keywords = {anonymity, behavioral analysis, online social networks, quantify, twitter},
+location = {Dublin, Ireland},
+series = {COSN '14}
+}
+
+@inproceedings{ieeesandp2014,
+author = {Peddinti, Sai Teja and Korolova, Aleksandra and Bursztein, Elie and Sampemane, Geetanjali},
+title = {Cloak and Swagger: Understanding Data Sensitivity through the Lens of User Anonymity},
+year = {2014},
+isbn = {9781479946860},
+publisher = {IEEE Computer Society},
+address = {USA},
+url = {https://doi.org/10.1109/SP.2014.38},
+doi = {10.1109/SP.2014.38},
+abstract = {Most of what we understand about data sensitivity is through user self-report (e.g., surveys), this paper is the first to use behavioral data to determine content sensitivity, via the clues that users give as to what information they consider private or sensitive through their use of privacy enhancing product features. We perform a large-scale analysis of user anonymity choices during their activity on Quora, a popular question-and-answer site. We identify categories of questions for which users are more likely to exercise anonymity and explore several machine learning approaches towards predicting whether a particular answer will be written anonymously. Our findings validate the viability of the proposed approach towards an automatic assessment of data sensitivity, show that data sensitivity is a nuanced measure that should be viewed on a continuum rather than as a binary concept, and advance the idea that machine learning over behavioral data can be effectively used in order to develop product features that can help keep users safe.},
+booktitle = {Proceedings of the 2014 IEEE Symposium on Security and Privacy},
+pages = {493-508},
+numpages = {16},
+series = {SP '14}
+}
+
+@article{jcs2014,
+author = {Peddinti, Sai Teja and Saxena, Nitesh},
+title = {Web search query privacy: Evaluating query obfuscation and anonymizing networks},
+year = {2014},
+issue_date = {January 2014},
+publisher = {IOS Press},
+address = {NLD},
+volume = {22},
+number = {1},
+issn = {0926-227X},
+abstract = {Web Search is one of the most rapidly growing applications on the internet today. However, the current practice followed by most search engines --of logging and analyzing users' queries --raises serious privacy concerns. In this paper, we concentrate on two existing solutions which are relatively easy to deploy --namely Query Obfuscation and Anonymizing Networks. In query obfuscation, a client-side software attempts to mask real user queries via injection of certain noisy queries. Anonymizing networks route the user queries through a series of relay servers, hiding the actual query source from the search engine. A fundamental problem with these solutions, however, is that user queries are still obviously revealed to the search engine, although they are “mixed” among queries generated either by a machine or by other users. We focus on TrackMeNot TMN, a popular query obfuscation tool, and the Tor anonymizing network, and try to analyse whether these solutions can actually preserve users' privacy in practice against an adversarial search engine. We demonstrate that a search engine, equipped with only a short-term history of a user's search queries, can break the privacy guarantees of TMN and Tor by only utilizing off-the-shelf machine learning techniques.},
+journal = {J. Comput. Secur.},
+month = jan,
+pages = {155-199},
+numpages = {45},
+keywords = {Search Privacy, Query Obfuscation, Anonymizing Networks}
+}
+
+@inproceedings{wpes2011,
+author = {Peddinti, Sai Teja and Dsouza, Avis and Saxena, Nitesh},
+title = {Cover locations: availing location-based services without revealing the location},
+year = {2011},
+isbn = {9781450310024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2046556.2046576},
+doi = {10.1145/2046556.2046576},
+abstract = {Location-Based Services (LBSs) have been gaining popularity due to a wide range of interesting and important applications being developed. However, the users availing such services are concerned about their location privacy, in that they are forced to reveal their sensitive location information to untrusted third-parties. In this paper, we propose a new privacy-preserving approach, Cover Locations, which allows a user to access an LBS without revealing his/her actual location. Based on its current location, the user's device queries for a few specifically chosen surrounding locations and constructs the results corresponding to its location from the results obtained for each queried location. Since the user location does not leave the user's device - as either a latitude and longitude pair, or as an obfuscated region - the user is guaranteed very high level of privacy. The Cover Locations approach only requires minimal changes on the user's device and can be readily deployed by privacy-conscious users. An adversary, trying to identify the user location, can only resolve the location to few triangular regions and not to the actual location itself. We evaluate the privacy provided by Cover Locations based on the number of locations queried and the total area under the resolved triangular regions. We also ascertain the robustness of Cover Locations approach when the adversary has access to a short-term user history, employing machine learning techniques. Overall, our results show that the proposed solution, which requires minor computations without the need for any out-of-band information such as traffic densities in a region or the road network information, is superior to other client-based solutions.},
+booktitle = {Proceedings of the 10th Annual ACM Workshop on Privacy in the Electronic Society},
+pages = {143-152},
+numpages = {10},
+keywords = {k-anonymity, location privacy, location-based services},
+location = {Chicago, Illinois, USA},
+series = {WPES '11}
+}
+
+@inproceedings{ubicomp2011,
+author = {Peddinti, Sai Teja and Saxena, Nitesh},
+title = {On the limitations of query obfuscation techniques for location privacy},
+year = {2011},
+isbn = {9781450306300},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2030112.2030139},
+doi = {10.1145/2030112.2030139},
+abstract = {A promising approach to location privacy is query obfuscation, which involves reporting k -- 1 false locations along with the real location. In this paper, we examine the level of privacy protection provided by the current query obfuscation techniques against adversarial location service providers. As a representative and realistic implementation of query obfuscation, we focus on SybilQuery. We present two types of attacks depending upon whether or not a short-term query history is available. When history is available, using machine learning, we were able to identify 93.67\% of user trips, with only 2.02\% of fake trips misclassified, for the security parameter k = 5. In the absence of history, we used trip correlations to form a smaller set of trips effectively increasing the user query identification probability from 20\% to about 40\%. Our work demonstrates that the use of aggregate statistical information alone is not sufficient to generate simulated trips. We identify areas for improvement in the existing query obfuscation techniques.},
+booktitle = {Proceedings of the 13th International Conference on Ubiquitous Computing},
+pages = {187-196},
+numpages = {10},
+keywords = {anonymity, location privacy, machine learning, query obfuscation},
+location = {Beijing, China},
+series = {UbiComp '11}
+}
+
+@inproceedings{asiaccs2011,
+author = {Peddinti, Sai Teja and Saxena, Nitesh},
+title = {On the effectiveness of anonymizing networks for web search privacy},
+year = {2011},
+isbn = {9781450305648},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1966913.1966984},
+doi = {10.1145/1966913.1966984},
+abstract = {Web search has emerged as one of the most important applications on the internet, with several search engines available to the users. There is a common practice among these search engines to log and analyse the user queries, which leads to serious privacy implications. One well known solution to search privacy involves issuing the queries via an anonymizing network, such as Tor, thereby hiding one's identity from the search engine. A fundamental problem with this solution, however, is that user queries are still obviously revealed to the search engine, although they are "mixed" among the queries issued by other users of the same anonymization service.In this paper, we consider the problem of identifying the queries of a user of interest (UOI) within a pool of queries received by a search engine over an anonymizing network. We demonstrate that an adversarial search engine can extract the UOI's queries, when it is equipped with only a short-term user search query history, by utilizing only the query content information and off-the-shelf machine learning classifiers. More specifically, by treating a selected set of 60 users --- from the publicly-available AOL search logs --- as the users of interest performing web search over an anonymizing network, we show that each user's queries can be identified with 25.95\% average accuracy, when mixed with queries of 99 other users of the anonymization service. This average accuracy drops to 18.95\% when queries of 999 other users of the anonymization service are mixed together. Though the average accuracies are not so high, our results indicate that few users of interest could be identified with accuracies as high as 80--98\%, even when their queries are mixed among queries of 999 other users. Our results cast serious doubts on the effectiveness of anonymizing web search queries by means of anonymizing networks.},
+booktitle = {Proceedings of the 6th ACM Symposium on Information, Computer and Communications Security},
+pages = {483-489},
+numpages = {7},
+keywords = {anonymizing networks, query obfuscation, web search privacy},
+location = {Hong Kong, China},
+series = {ASIACCS '11}
+}
+
+@inproceedings{pets2010,
+author = {Peddinti, Sai Teja and Saxena, Nitesh},
+title = {On the privacy of web search based on query obfuscation: a case study of TrackMeNot},
+year = {2010},
+isbn = {3642145264},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+abstract = {Web Search is one of the most rapidly growing applications on the internet today. However, the current practice followed by most search engines - of logging and analyzing users' queries - raises serious privacy concerns. One viable solution to search privacy is query obfuscation, whereby a client-side software attempts to mask real user queries via injection of certain noisy queries. In contrast to other privacy-preserving search mechanisms, query obfuscation does not require server-side modifications or a third party infrastructure, thus allowing for ready deployment at the discretion of privacy-conscious users. In this paper, our higher level goal is to analyze whether query obfuscation can preserve users' privacy in practice against an adversarial search engine. We focus on TrackMeNot (TMN) [10,20], a popular search privacy tool based on the principle of query obfuscation. We demonstrate that a search engine, equipped with only a short-term history of a user's search queries, can break the privacy guarantees of TMN by only utilizing off-the-shelf machine learning classifiers.},
+booktitle = {Proceedings of the 10th International Conference on Privacy Enhancing Technologies},
+pages = {19-37},
+numpages = {19},
+keywords = {web search privacy, query obfuscation, noisy queries},
+location = {Berlin, Germany},
+series = {PETS'10}
+}
+
+@article{iui4dr2008,
+  title={From pilot to practice: creating multiple input multimedia content for real-world deployment},
+  author={Pal, Joyojeet and Pawar, Udai and Joshi, Apurva and Jain, Mohit and Thota, Sai Gopal and Sai Teja, P and Anikar, Sukumar},
+  year={2008},
+  booktitle={IUI (ACM International Conference on Intelligent User Interfaces): International Workshop on Intelligent User Interfaces for Developing Regions (IUI4DR)},
+}
