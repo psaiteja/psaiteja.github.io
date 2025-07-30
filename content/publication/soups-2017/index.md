@@ -3,15 +3,21 @@ title: Exploring decision making with android's runtime permission dialogs using
   surveys
 authors:
 - Bram Bonné
-- Sai Teja Peddinti
+- admin
 - Igor Bilogrevic
 - Nina Taft
-date: '2017-01-01'
+
+date: '2017-07-12'
+
 publishDate: '2025-07-30T18:33:34.984462Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the Thirteenth USENIX Conference on Usable Privacy and
-  Security*'
+
+publication: 'Proceedings of the Thirteenth USENIX Conference on Usable Privacy and
+  Security'
+publication_short: 'USENIX SOUPS'
+
 abstract: A great deal of research on the management of user data on smartphones via
   permission systems has revealed significant levels of user discomfort, lack of understanding,
   and lack of attention. The majority of these studies were conducted on Android devices
@@ -30,4 +36,16 @@ abstract: A great deal of research on the management of user data on smartphones
   with 90% of those decisions - indicating that for 10% of grant decisions users may
   be consenting reluctantly. Interestingly, we found that women deny permissions twice
   as often as men.
+
+tags:
+- Privacy
+- Mobile Apps
+- Usability Research
+
+featured: true
+
+url_pdf: https://www.usenix.org/system/files/conference/soups2017/soups2017-bonne.pdf
+url_slides: https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bonne
 ---
+
+This paper won the **IAPP SOUPS Privacy Award** at the conference.

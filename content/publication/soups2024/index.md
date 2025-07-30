@@ -32,6 +32,7 @@ tags:
 featured: false
 
 url_pdf: "https://www.usenix.org/system/files/soups2024-prybylo.pdf"
+url_slides: "https://www.usenix.org/conference/soups2024/presentation/prybylo"
 
 isbn: "978-1-939133-42-7"
 location: "Philadelphia, PA, USA"

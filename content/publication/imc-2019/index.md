@@ -1,19 +1,25 @@
 ---
 title: Reducing Permission Requests in Mobile Apps
 authors:
-- Sai Teja Peddinti
+- admin
 - Igor Bilogrevic
 - Nina Taft
 - Martin Pelikan
 - Úlfar Erlingsson
 - Pauline Anthonysamy
 - Giles Hogben
-date: '2019-01-01'
+
+date: '2019-10-21'
+doi: 10.1145/3355369.3355584
+
 publishDate: '2025-07-30T18:33:34.976901Z'
+
 publication_types:
 - paper-conference
-publication: '*Proceedings of the Internet Measurement Conference*'
-doi: 10.1145/3355369.3355584
+
+publication: 'Proceedings of the Internet Measurement Conference'
+publication_short: 'ACM IMC'
+
 abstract: Users of mobile apps sometimes express discomfort or concerns with what
   they see as unnecessary or intrusive permission requests by certain apps. However
   encouraging mobile app developers to request fewer permissions is challenging because
@@ -28,10 +34,16 @@ abstract: Users of mobile apps sometimes express discomfort or concerns with wha
   redacted by 59% of apps that were warned, and this attenuation has occurred broadly
   across both app categories and app popularity levels. Importantly, billions of users'
   app installs from the Google Play have benefited from these redactions.
+
 tags:
 - Mobile Apps
 - Permissions
-links:
-- name: URL
-  url: https://doi.org/10.1145/3355369.3355584
+
+featured: false
+
+url_pdf: https://dl.acm.org/doi/10.1145/3355369.3355584
 ---
+
+This work was featured in the [Google's Security Blog](https://security.googleblog.com/2020/02/helping-developers-with-permission.html), and also covered by press: 
+- [Forbes - Google Wants To Make Android More Secure: Apps With 55 Billion Installs Impacted](https://www.forbes.com/sites/zakdoffman/2020/02/27/google-confirms-striking-new-android-security-move-55-billion-app-installs-now-impacted/#448a30f51aff)
+- [Threatpost - Google’s War on Android App Permissions, 60 Percent Successful](https://threatpost.com/googles-war-on-android-app-permissions-60-percent-successful/153311/)
