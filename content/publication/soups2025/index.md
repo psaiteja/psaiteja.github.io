@@ -44,4 +44,4 @@ links:
 
 ---
 
-An earlier and shorter version of this paper appeared in the [SOUPS Workshop on SUPA: Societal & User-Centered Privacy in AI, 2024](/publication/supa24/).
+An earlier and shorter version of this paper appeared in the [SOUPS Workshop on SUPA: Societal & User-Centered Privacy in AI, 2024](/publication/supa2024/).

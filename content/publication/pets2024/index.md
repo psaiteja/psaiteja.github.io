@@ -20,13 +20,12 @@ publication_types: ["paper-conference"]
 publication: "PETS workshop: Privacy, Safety and Trust for Mobile Health Apps"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: In this paper we study users’ opinions about the privacy of their mobile health apps. We look at what they write in app reviews in the ‘Health & Fitness’ category on the Google Play store. We identified 2832 apps in this category (based on 1K minimum installs). Using NLP/LLM analyses, we find that 76% of these apps have at least some privacy reviews. In total this yields over 164,000 reviews about privacy, from over 150 countries and in 25 languages. Our analyses identifies top themes and offers an approximation of how widespread these issues are around the world. We show that the top 4 themes, Data Sharing and Exposure, Permission Requests, Location Tracking and Data Collection, are issues of concern in over 70 countries. Our automatically generated thematic summaries reveal interesting aspects that deserve further research around user suspicions (unneeded data collection), user requests (more fine-grained control over data collection and data access), as well as user behavior (uninstalling apps).
 
 tags:
-- Source Themes
+- Mobile Health Apps
+- Large Language Models
+
 featured: false
 
 links:
@@ -40,13 +39,3 @@ url_slides: ''
 url_source: ''
 url_video: ''
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
