@@ -12,7 +12,7 @@ main:
     weight: 11
   - name: Patents
     url: patents/
-    weight: 11
+    weight: 15
   - name: Experience
     url: experience/
     weight: 20
