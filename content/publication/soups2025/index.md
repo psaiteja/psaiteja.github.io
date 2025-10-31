@@ -19,7 +19,7 @@ publishDate: "2025-07-29T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Twenty-First Symposium on Usable Privacy and Security"
+publication: "Proceedings of the Twenty-First Symposium on Usable Privacy and Security"
 publication_short: "SOUPS"
 
 abstract: The proliferation of AI has sparked privacy concerns related to training data, model interfaces, downstream applications, and more. We interviewed 25 AI developers based in Europe to understand which privacy threats they believe pose the greatest risk to users, developers, and businesses and what protective strategies, if any, would help to mitigate them. We find that there is little consensus among AI developers on the relative ranking of privacy risks. These differences stem from salient reasoning patterns that often relate to human rather than purely technical factors. Furthermore, while AI developers are aware of proposed mitigation strategies for addressing these risks, they reported minimal real-world adoption. Our findings highlight both gaps and opportunities for empowering AI developers to better address privacy risks in AI.
@@ -33,7 +33,9 @@ featured: true
 links:
 - name: SOUPS2025
   url: https://www.usenix.org/conference/soups2025/presentation/klymenko
-#url_pdf: http://arxiv.org/pdf/1512.04133v1
+
+url_pdf: https://www.usenix.org/system/files/soups2025-klymenko.pdf
+url_slides: https://www.usenix.org/sites/default/files/conference/protected-files/soups2025_slides_meisenbacher.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
