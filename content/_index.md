@@ -35,11 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a research scientist in the privacy research team at Google. I publish in the areas of privacy & security, artificial intelligence (AI), machine learning, and data mining. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        My research leverages a dual approach—combining qualitative and quantitative methods—to comprehensively investigate user and developer privacy preferences and concerns. I then employ large-scale data analysis and Machine Learning/AI (including LLMs) techniques to design and implement novel privacy and security features.
+
+        Most recently, I have been leveraging and critically analyzing Large Language Models (LLMs) to address fundamental, real-world challenges in cybersecurity and privacy. This vision spans two main areas: first, employing LLMs as a scalable and interpretable foundation to solve complex security and privacy problems, such as high-accuracy IoT device identification from incomplete network metadata; and second, conducting large-scale empirical studies to understand and mitigate the emerging privacy risks associated with AI. This critical analysis involves investigating how users and developers perceive and respond to threats like implicit attribute inference by LLMs, as well as studying real-world, large-scale trends in user concerns (e.g., analyzing millions of Android app reviews) to inform and drive the development of more effective, human-centered mitigation strategies for AI systems.
     design:
       columns: '1'
   - block: collection

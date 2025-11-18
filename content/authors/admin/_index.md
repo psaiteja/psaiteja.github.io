@@ -193,6 +193,4 @@ awards:
 
 I am currently a [Staff Research Scientist](http://research.google.com/pubs/SaiPeddinti.html) at Google working in the general area of Privacy and Security.
 
-My current research focuses on applying machine learning techniques to build novel privacy and security features, and performing large scale measurements and analysis to understand user preferences/concerns and to evaluate effectiveness of existing features. 
-
 I graduated in 2014 with a Ph.D. in Computer Science from the [Department of Computer Science and Engineering](http://engineering.nyu.edu/academics/departments/computer-science-engineering) at the [New York University, Polytechnic School of Engineering (currently Tandon School of Engineering)](http://engineering.nyu.edu/). I completed my Bachelor of Technology in ICT from [Dhirubhai Ambani Institute of Information and Communication Technology, DA-IICT](https://www.daiict.ac.in/) (now Dhirubhai Ambani University, DAU), India in 2009.
