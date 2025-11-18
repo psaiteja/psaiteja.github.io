@@ -9,7 +9,7 @@ authors:
 date: '2025-11-18'
 # doi: 10.1609/icwsm.v10i1.14782
 
-publishDate: '2026-03-01'
+publishDate: '2025-11-18T00:00:00Z'
 
 publication_types:
 - paper-conference
