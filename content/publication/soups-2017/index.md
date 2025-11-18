@@ -42,7 +42,7 @@ tags:
 - Mobile Apps
 - Usability Research
 
-featured: true
+featured: false
 
 url_pdf: https://www.usenix.org/system/files/conference/soups2017/soups2017-bonne.pdf
 url_slides: https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bonne
