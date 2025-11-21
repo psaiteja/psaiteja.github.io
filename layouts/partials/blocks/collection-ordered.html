@@ -1,0 +1,93 @@
+{{/* Hugo Blox: Collection Block (Ordered) */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $view := $block.design.view | default "compact" }}
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-4">
+
+  {{ with $block.content.title }}
+  <div class="mb-6 text-3xl font-bold text-neutral-900 dark:text-neutral-50">
+    {{ . | markdownify | emojify }}
+  </div>
+  {{ end }}
+
+  {{ with $block.content.text }}
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none">
+    {{ . | markdownify | emojify }}
+  </div>
+  {{ end }}
+
+  {{/* Query */}}
+  {{ $query := site.RegularPages }}
+  {{ $archive_page := "" }}
+
+  {{/* Filters */}}
+  {{ if $block.content.filters.folders }}
+    {{ $folders := $block.content.filters.folders }}
+    {{ $query = where $query "Section" "in" $folders }}
+    {{/* Link to the archive page */}}
+    {{ $archive_page = site.GetPage (index $folders 0) }}
+  {{ end }}
+
+  {{ if $block.content.filters.tag }}
+    {{ $tag := $block.content.filters.tag }}
+    {{ $query = where $query "Params.tags" "intersect" (slice $tag) }}
+    {{/* Link to the archive page */}}
+    {{ $archive_page = site.GetPage (printf "tags/%s" (urlize $tag)) }}
+  {{ end }}
+
+  {{ if $block.content.filters.category }}
+    {{ $category := $block.content.filters.category }}
+    {{ $query = where $query "Params.categories" "intersect" (slice $category) }}
+    {{/* Link to the archive page */}}
+    {{ $archive_page = site.GetPage (printf "categories/%s" (urlize $category)) }}
+  {{ end }}
+
+  {{ if $block.content.filters.publication_type }}
+    {{ $pub_type := $block.content.filters.publication_type }}
+    {{ $query = where $query "Params.publication_types" "intersect" (slice $pub_type) }}
+  {{ end }}
+
+  {{ if $block.content.filters.exclude_featured }}
+    {{ $query = where $query "Params.featured" "!=" true }}
+  {{ end }}
+
+  {{ if $block.content.filters.exclude_past }}
+    {{ $query = where $query "Date" ">=" now }}
+  {{ end }}
+
+  {{ if $block.content.filters.exclude_future }}
+    {{ $query = where $query "Date" "<" now }}
+  {{ end }}
+
+  {{ $count := len $query }}
+
+  {{/* Sort */}}
+  {{ $sort_by := $block.content.sort_by | default "Date" }}
+  {{ $sort_ascending := $block.content.sort_ascending | default false }}
+  {{ if eq $sort_ascending true }}
+    {{ $query = sort $query $sort_by "asc" }}
+  {{ else }}
+    {{ $query = sort $query $sort_by "desc" }}
+  {{ end }}
+
+  {{/* Limit */}}
+  {{ $limit := $block.content.count | default $count }}
+  {{ $query = first $limit $query }}
+
+  {{/* Render */}}
+  {{ if gt $count 0 }}
+  <ol class="flex flex-col gap-4 list-decimal list-outside pl-5">
+    {{ range $index, $item := $query }}
+      <li class="pl-2">
+        {{ partial "functions/render_view" (dict "page" $page "item" $item "view" $view "index" $index) }}
+      </li>
+    {{ end }}
+  </ol>
+  {{ end }}
+
+</div>

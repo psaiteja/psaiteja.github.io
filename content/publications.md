@@ -6,7 +6,7 @@ design:
   spacing: '5rem'
 
 sections:
-  - block: collection
+  - block: collection-ordered
     content:
       title: All Publications
       text: ""
