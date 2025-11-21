@@ -1,27 +1,7 @@
-<footer class="site-footer">
-    <div class="container">
-        <p class="powered-by">
-            {{ with site.Params.footer.copyright.notice }}
-            {{ $notice := . | replaceRE "{year}" (now.Year | string) }}
-            {{ $license := "" }}
-            {{ if site.Params.footer.copyright.license.enable }}
-            {{ $license_type := "CC BY" }}
-            {{ if not site.Params.footer.copyright.license.allow_commercial }}
-            {{ $license_type = printf "%s NC" $license_type }}
-            {{ end }}
-            {{ if site.Params.footer.copyright.license.allow_derivatives }}
-            {{ if site.Params.footer.copyright.license.share_alike }}
-            {{ $license_type = printf "%s SA" $license_type }}
-            {{ end }}
-            {{ else }}
-            {{ $license_type = printf "%s ND" $license_type }}
-            {{ end }}
-            {{ $license = printf "<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0\" target=\"_blank\"
-                rel=\"noopener\">%s 4.0</a>" $license_type }}
-            {{ end }}
-            {{ $notice := $notice | replaceRE "{license}" $license }}
-            {{ $notice | markdownify }}
-            {{ end }}
-        </p>
-    </div>
+﻿<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+      &copy; {{ now.Year }} Sai Teja Peddinti. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noopener">CC BY NC ND 4.0</a>
+    </p>
+  </div>
 </footer>
