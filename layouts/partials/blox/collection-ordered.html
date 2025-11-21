@@ -1,4 +1,4 @@
-{{/* Hugo Blox: Collection Block (Ordered) */}}
+﻿{{/* Hugo Blox: Collection Block (Ordered) */}}
 {{/* Documentation: https://hugoblox.com/blocks/ */}}
 {{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
 
@@ -61,11 +61,8 @@
   {{ end }}
 
   {{ if $block.content.filters.exclude_future }}
-  {{ $query = where $query "Date" "<" now }} {{ end }} {{ $count :=len $query }} {{/* Sort */}} {{ $sort_by
-    :=$block.content.sort_by | default "Date" }} {{ $sort_ascending :=$block.content.sort_ascending | default false }}
-    {{ if eq $sort_ascending true }} {{ $query=sort $query $sort_by "asc" }} {{ else }} {{ $query=sort $query
-    $sort_by "desc" }} {{ end }} {{/* Limit */}} {{ $limit :=$block.content.count | default $count }} {{ $query=first
-    $limit $query }} {{/* Render */}} {{ if gt $count 0 }} <ol
+  {{ $query = where $query "Date" "<" now }} {{ end }} {{ $count := len $query }} {{/* Sort */}} {{ $sort_by := $block.content.sort_by | default "Date" }} {{ $sort_ascending := $block.content.sort_ascending | default false }}
+    {{ if eq $sort_ascending true }} {{ $query = sort $query $sort_by "asc" }} {{ else }} {{ $query = sort $query $sort_by "desc" }} {{ end }} {{/* Limit */}} {{ $limit := $block.content.count | default $count }} {{ $query = first $limit $query }} {{/* Render */}} {{ if gt $count 0 }} <ol
     class="flex flex-col gap-4 list-decimal list-outside ml-6" style="list-style-type: decimal;">
     {{ range $index, $item := $query }}
     <li class="pl-2">
