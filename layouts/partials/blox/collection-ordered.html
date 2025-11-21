@@ -27,67 +27,62 @@
 
   {{/* Filters */}}
   {{ if $block.content.filters.folders }}
-    {{ $folders := $block.content.filters.folders }}
-    {{ $query = where $query "Section" "in" $folders }}
-    {{/* Link to the archive page */}}
-    {{ $archive_page = site.GetPage (index $folders 0) }}
+  {{ $folders := $block.content.filters.folders }}
+  {{ $query = where $query "Section" "in" $folders }}
+  {{/* Link to the archive page */}}
+  {{ $archive_page = site.GetPage (index $folders 0) }}
   {{ end }}
 
   {{ if $block.content.filters.tag }}
-    {{ $tag := $block.content.filters.tag }}
-    {{ $query = where $query "Params.tags" "intersect" (slice $tag) }}
-    {{/* Link to the archive page */}}
-    {{ $archive_page = site.GetPage (printf "tags/%s" (urlize $tag)) }}
+  {{ $tag := $block.content.filters.tag }}
+  {{ $query = where $query "Params.tags" "intersect" (slice $tag) }}
+  {{/* Link to the archive page */}}
+  {{ $archive_page = site.GetPage (printf "tags/%s" (urlize $tag)) }}
   {{ end }}
 
   {{ if $block.content.filters.category }}
-    {{ $category := $block.content.filters.category }}
-    {{ $query = where $query "Params.categories" "intersect" (slice $category) }}
-    {{/* Link to the archive page */}}
-    {{ $archive_page = site.GetPage (printf "categories/%s" (urlize $category)) }}
+  {{ $category := $block.content.filters.category }}
+  {{ $query = where $query "Params.categories" "intersect" (slice $category) }}
+  {{/* Link to the archive page */}}
+  {{ $archive_page = site.GetPage (printf "categories/%s" (urlize $category)) }}
   {{ end }}
 
   {{ if $block.content.filters.publication_type }}
-    {{ $pub_type := $block.content.filters.publication_type }}
-    {{ $query = where $query "Params.publication_types" "intersect" (slice $pub_type) }}
+  {{ $pub_type := $block.content.filters.publication_type }}
+  {{ $query = where $query "Params.publication_types" "intersect" (slice $pub_type) }}
   {{ end }}
 
   {{ if $block.content.filters.exclude_featured }}
-    {{ $query = where $query "Params.featured" "!=" true }}
+  {{ $query = where $query "Params.featured" "!=" true }}
   {{ end }}
 
   {{ if $block.content.filters.exclude_past }}
-    {{ $query = where $query "Date" ">=" now }}
+  {{ $query = where $query "Date" ">=" now }}
   {{ end }}
 
   {{ if $block.content.filters.exclude_future }}
-    {{ $query = where $query "Date" "<" now }}
-  {{ end }}
-
-  {{ $count := len $query }}
-
-  {{/* Sort */}}
-  {{ $sort_by := $block.content.sort_by | default "Date" }}
-  {{ $sort_ascending := $block.content.sort_ascending | default false }}
-  {{ if eq $sort_ascending true }}
-    {{ $query = sort $query $sort_by "asc" }}
-  {{ else }}
-    {{ $query = sort $query $sort_by "desc" }}
-  {{ end }}
-
-  {{/* Limit */}}
-  {{ $limit := $block.content.count | default $count }}
-  {{ $query = first $limit $query }}
-
-  {{/* Render */}}
-  {{ if gt $count 0 }}
-  <ol class="flex flex-col gap-4 list-decimal list-outside pl-5">
+  {{ $query = where $query "Date" "<" now }} {{ end }} {{ $count :=len $query }} {{/* Sort */}} {{ $sort_by
+    :=$block.content.sort_by | default "Date" }} {{ $sort_ascending :=$block.content.sort_ascending | default false }}
+    {{ if eq $sort_ascending true }} {{ $query=sort $query $sort_by "asc" }} {{ else }} {{ $query=sort $query
+    $sort_by "desc" }} {{ end }} {{/* Limit */}} {{ $limit :=$block.content.count | default $count }} {{ $query=first
+    $limit $query }} {{/* Render */}} {{ if gt $count 0 }} <ol class="flex flex-col gap-4 list-decimal list-inside">
     {{ range $index, $item := $query }}
-      <li class="pl-2">
+    <li class="pl-2" style="display: list-item;">
+      <div class="inline-block align-top">
         {{ partial "functions/render_view" (dict "page" $page "item" $item "view" $view "index" $index) }}
-      </li>
+      </div>
+    </li>
     {{ end }}
-  </ol>
-  {{ end }}
+    </ol>
+    {{ end }}
+
+    {{/* Archive Link */}}
+    {{ if $archive_page }}
+    <div class="flex justify-center mt-6">
+      <a href="{{ $archive_page.RelPermalink }}" class="btn btn-primary btn-lg">
+        {{ i18n "more_pages" | default "See all" }}
+      </a>
+    </div>
+    {{ end }}
 
 </div>
