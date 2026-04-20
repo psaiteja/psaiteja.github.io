@@ -8,6 +8,9 @@ design:
 
 sections:
   - block: markdown
+    design:
+      title_size: 'text-3xl'
+      css_class: 'prose lg:prose-xl max-w-prose mx-auto'
     content:
       title: Technical Program Committee Member
       text: |
@@ -24,6 +27,9 @@ sections:
         - [ACM Workshop on Artificial Intelligence and Security (AISec) 2015](http://www-bcf.usc.edu/~aruneshs/AISec2015.html).
 
   - block: markdown
+    design:
+      title_size: 'text-3xl'
+      css_class: 'prose lg:prose-xl max-w-prose mx-auto'
     content:
       title: Reviewer
       text: |
