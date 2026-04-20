@@ -26,9 +26,9 @@ tags:
 
 featured: false
 
-#links:
-#- name: URL
-#  url: https://ojs.aaai.org/index.php/ICWSM/article/view/14782
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2601.00372
 
 # url_pdf: 'https://cdn.aaai.org/ojs/14782/14782-28-18300-1-2-20201228.pdf'
 ---
