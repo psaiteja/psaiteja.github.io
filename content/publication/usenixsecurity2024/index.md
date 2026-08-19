@@ -28,7 +28,7 @@ abstract: "We present an analysis of 12 million instances of privacy-relevant re
 
 tags: ["Privacy", "NLP", "Google Play", "App Reviews"]
 
-featured: true
+featured: false
 
 url_pdf: "https://www.usenix.org/system/files/sec24fall-prepub-832-akgul.pdf"
 

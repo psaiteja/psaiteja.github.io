@@ -28,7 +28,7 @@ tags:
 - Large Language Models
 - Usability Research
 
-featured: true
+featured: false
 
 links:
 - name: SOUPS2025
