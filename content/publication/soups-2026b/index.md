@@ -1,5 +1,6 @@
 ---
 title: '"You have been selected as the winner": Characterizing User-Reported Scams on TikTok'
+slug: soups-2026b
 authors:
 - Smirity Kaushik
 - Kyle Beadle

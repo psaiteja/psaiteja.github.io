@@ -1,5 +1,6 @@
 ---
 title: "Understanding U.S. Users' Security and Privacy Transparency Needs for Consumer-Facing Generative AI"
+slug: soups-2026a
 authors:
 - Jiaxun Cao
 - Yu Dong

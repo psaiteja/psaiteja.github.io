@@ -1,5 +1,6 @@
 ---
 title: "Nudging Developers Toward Privacy: Evaluating the Impact of Personalized App Review Reports"
+slug: soups-2026c
 authors:
 - admin
 - Omer Akgul
