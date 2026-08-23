@@ -37,4 +37,5 @@ links:
 - name: Google Research
   url: https://research.google/pubs/nudging-developers-toward-privacy-evaluating-the-impact-of-personalized-app-review-reports/
 
+-url_pdf: Nudging_Developers_SOUPS2026.pdf
 ---
