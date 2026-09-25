@@ -154,6 +154,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Distinguished Paper Award
+    url: https://conf.researchr.org/track/scam-2026/scam-2026-research-track
+    date: '2026-09-14'
+    awarder: IEEE SCAM Conference
+    icon: best_paper_award
+    summary: |
+      Our paper titled [Verity: A Framework to Generate Privacy Captions from Android Source Code using LLMs](/publications/scam-2026/) was awarded the Distinguished Paper Award.
   - title: Finalist in NYU CSAW Applied Research Competition
     url: https://www.csaw.io/research
     date: '2022-10-01'
