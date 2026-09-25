@@ -1,16 +1,17 @@
 ---
 title: "Nudging Developers Toward Privacy: Evaluating the Impact of Personalized App Review Reports"
+slug: soups-2026c
 authors:
 - admin
 - Omer Akgul
 - Michelle L. Mazurek
 - Nina Taft
 
-date: "2026-08-23T00:00:00Z"
+date: "2026-08-23T03:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-08-23T03:00:00Z"
+publishDate: "2026-08-18T03:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -36,4 +37,5 @@ links:
 - name: Google Research
   url: https://research.google/pubs/nudging-developers-toward-privacy-evaluating-the-impact-of-personalized-app-review-reports/
 
+url_pdf: '/uploads/Nudging_Developers_SOUPS2026.pdf'
 ---

@@ -1,5 +1,6 @@
 ---
 title: '"You have been selected as the winner": Characterizing User-Reported Scams on TikTok'
+slug: soups-2026b
 authors:
 - Smirity Kaushik
 - Kyle Beadle
@@ -11,11 +12,11 @@ authors:
 - Jingjie Li
 - Yixin Zou
 
-date: "2026-08-23T00:00:00Z"
+date: "2026-08-23T02:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-08-23T02:00:00Z"
+publishDate: "2026-08-18T02:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
