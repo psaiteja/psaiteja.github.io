@@ -172,7 +172,7 @@ awards:
     url: https://www.usenix.org/conference/soups2017
     date: '2017-07-01'
     awarder: USENIX SOUPS Conference
-    icon: soups_2017
+    icon: best_paper_award
     summary: |
       Our paper titled [Exploring decision making with Android’s runtime permission dialogs using in-context surveys](https://www.usenix.org/conference/soups2017/technical-sessions/presentation/bonne) was awarded the IAPP SOUPS Privacy Award.
   - title: Finalist in the Kaspersky's 'CyberSecurity for the Next Generation'
